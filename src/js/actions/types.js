@@ -1,1 +1,1 @@
-export const SAY_SOMETHING = 'SAY_SOMETHING';
+export const SELECT_CURRENCY = 'SELECT_CURRENCY';

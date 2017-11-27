@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import saySomething from './saySomething';
+import app from './app';
 
 const rootReducer = combineReducers({
-  message: saySomething,
+    app,
 });
 
 export default rootReducer;

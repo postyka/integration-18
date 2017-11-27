@@ -6,13 +6,15 @@
   "scripts": {
     "clean": "rimraf dist",
     "dev": "cross-env NODE_ENV=development node devServer.js",
-    "build":
-      "cross-env NODE_ENV=production npm run clean && cross-env NODE_ENV=production webpack --config=webpack.build.config.js -p",
+    "build": "cross-env NODE_ENV=production npm run clean && cross-env NODE_ENV=production webpack --config=webpack.build.config.js -p",
     "flow": "flow"
   },
   "author": "",
   "license": "ISC",
-  "browserslist": ["last 5 versions", "not ie < 11"],
+  "browserslist": [
+    "last 5 versions",
+    "not ie < 11"
+  ],
   "prettier": {
     "singleQuote": true,
     "trailingComma": "all"
@@ -20,9 +22,11 @@
   "dependencies": {
     "axios": "^0.16.2",
     "es6-promise": "^4.1.1",
+    "highcharts": "^6.0.3",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
+    "react": "^15.6.2",
     "react-dom": "^15.6.1",
+    "react-highcharts": "^15.0.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
